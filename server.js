@@ -11,7 +11,7 @@ dotenv.config()
 
 app.use(express.json())
 app.use(cors({
-  origin: ['https://keymenadvisory.com', 'http://13.201.5.3:80']
+  origin: ['https://keymenadvisory.com']
 }))
 
 
